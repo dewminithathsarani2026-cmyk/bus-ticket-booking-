@@ -24,6 +24,52 @@
     </header>
 
     <hr>
+    <main align="center">
+        
+        <h1>Search Your Bus</h1>
+        <p>Find and book buses across Sri Lanka</p>
+
+        <table align="center" border="1" cellpadding="15" cellspacing="0">
+            <tr>
+                <td>
+                    <form>
+                        <table cellpadding="10">
+                            <tr>
+                                <td>
+                                    <label for="from">📍 From</label><br>
+                                    <select id="from" name="from">
+                                        <select disabled selected>Select origin city</select>
+                                        <option value="colombo">Colombo</option>
+                                        <option value="kandy">Kandy</option>
+                                        <option value="galle">Galle</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="to">📍 To</label><br>
+                                    <select id="to" name="to">
+                                        <select disabled selected>Select destination city</select>
+                                        <option value="colombo">Colombo</option>
+                                        <option value="kandy">Kandy</option>
+                                        <option value="galle">Galle</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label for="date">📅 Travel Date</label><br>
+                                    <input type="date" id="date" name="date" value="2026-06-17">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <button type="submit">🔍 Search Buses</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
 
    
 
